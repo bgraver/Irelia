@@ -1,12 +1,7 @@
 # Scripts for importing the files
 import requests
 import datetime
-
-
-headers = {'x-api-key': '0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z'}
-params = {"hl": "en-US"}
-
-s10_start_date = "2021-01-01"
+from Irelia import headers, params, s11_start_date
 
 def getLeagues():
     return requests.get('https://esports-api.lolesports.com/persisted/gw/getLeagues', params=params, headers=headers).json()
@@ -52,7 +47,7 @@ def getFullSchedule(leagueId, current=True):
         else:
             current_schedule = []
             for match in ordered_schedule:
-                if match['startTime'] >= s10_start_date:
+                if match['startTime'] >= s11_start_date:
                     current_schedule.append(match)
             return current_schedule
 
