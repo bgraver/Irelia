@@ -1,5 +1,5 @@
 import requests
-from Irelia import params, headers
+from src.Irelia import params, headers
 
 
 def getLeagues():

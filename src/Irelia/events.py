@@ -1,5 +1,5 @@
 import requests
-from Irelia import params, headers, s11_start_date
+from src.Irelia import params, headers, s11_start_date
 import datetime
 
 
