@@ -1,2 +1,5 @@
 .idea
 esports_lib.py
+.dist
+.build
+.env
