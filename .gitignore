@@ -1,6 +1,6 @@
-*./idea
+.idea
 esports_lib.py
-*./dist
-*./build
-*./env
-*./venv
+dist
+build
+env
+venv
