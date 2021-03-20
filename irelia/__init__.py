@@ -1,6 +1,8 @@
-import events
-import leagues
-import teams
+from irelia.esports_lib import Lolesports
+
+
+
+
 
 headers = {'x-api-key': '0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z'}
 params = {"hl": "en-US"}

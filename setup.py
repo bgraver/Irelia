@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 
 description = "A lolesports api wrapper"
 keywords = "api, lol, league of legends, lolesports, esports, wrapper"
-VERSION = "0.0.5"
+VERSION = "0.0.7"
 
 
 setup(
